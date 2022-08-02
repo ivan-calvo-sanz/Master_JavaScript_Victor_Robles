@@ -53,7 +53,7 @@
 
     <hr />
     <h2>Imagenes en HTML</h2>
-    <img src="imagenes/perro.jpg" alt="Imagen de un perro" title="foto de perro" width="150px"/>
+    <img src="imagenes/perro.jpg" alt="Imagen de un perro" title="foto de perro" width="150px" />
     <hr />
 
     <h3>Tablas</h3>
@@ -71,10 +71,39 @@
         <tr>
             <td>Victor</td>
             <td colspan="2">Robles</td>
-            
+
         </tr>
 
     </table>
+
+    <hr />
+
+    <h3>Formulario</h3>
+    <form>
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" />
+        </p>
+        <p>
+            <label for="descripcion">Descripcion</label>
+            <textarea name="descripcion"></textarea>
+        </p>
+        <p>
+            <input type="radio" name="genero" value="hombre">Hombre<br>
+            <input type="radio" name="genero" value="mujer">Mujer<br>
+            <input type="radio" name="genero" value="nada">Nada<br>
+        </p>
+
+        <select name="generodos">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="nada">Nada</option>
+        </select>
+
+        <input type="submit" value="Enviar formulario">
+
+    </form>
+
 
     <hr />
 
